@@ -10,6 +10,38 @@ import QuestionMark from "/img/QuestionMark";
 // END OF: Shuffle logic
 // Click and flip functionality
 
+<<<<<<< HEAD
+=======
+const cardOne = document.getElementById("card-one");
+const cardTwo = document.getElementById("card-two");
+
+addEventListener()
+// do for every td ????? (if we do table)
+
+// or do grid .. ??
+
+function checkForMatch(card1, card2) {
+    return "brief flip";
+        // 1000 milisecond CSS transform
+}
+
+function flipMatchedCards(card1, card2) {
+    return "cards flip";
+    // permanent CSS transform
+}
+
+if (cardOne.classList.contains("red-dog") && cardTwo.classList.contains("red-dog")) {
+    flipMatchedCards();
+} else {
+    checkForMatch();
+}
+
+
+
+
+
+
+>>>>>>> ebdd16cb8b3989c46df67c4d048dab97e210ff77
 // END OF: Click and flip functionality
 // Timer Logic
 let flippedPairs = 0;
