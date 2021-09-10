@@ -23,7 +23,7 @@ root.appendChild(timer);
 let deciseconds = 0;
 let seconds = 0;
 let minutes = 0;
-setInterval(() => {
+const runTimer = setInterval(() => {
     deciseconds++;
     if (deciseconds === 10) {
         seconds++;
@@ -35,6 +35,15 @@ setInterval(() => {
     timer.innerText = `${minutes}:${(seconds >= 10) ? '' : 0}${seconds}${deciseconds}`
 
 }, 100)
+
+// For testing the timer will stop onclick
+timer.addEventListener("click", () => {
+    flippedPairs = 8;
+    // Stop the timer:
+    if (flippedPairs === 8) {
+        clearInterval(runTimer);
+    }
+})
 
 // END OF: Timer Logic
 // Score manager
