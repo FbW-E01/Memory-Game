@@ -17,8 +17,6 @@ const cardTwo = document.getElementById("card-two");
 addEventListener()
 // do for every td ????? (if we do table)
 
-// or do grid .. ??
-
 function checkForMatch(card1, card2) {
     return "brief flip";
         // 1000 milisecond CSS transform

@@ -14,28 +14,17 @@ import 'regenerator-runtime';
 const cardOne = document.getElementById("card-one");
 const cardTwo = document.getElementById("card-two");
 
-addEventListener()
-// do for every td ????? (if we do table)
-
-// or do grid .. ??
-
 function checkForMatch(card1, card2) {
-    return "brief flip";
-        // 1000 milisecond CSS transform
+    // 1000 milisecond CSS transform
 }
 
 function flipMatchedCards(card1, card2) {
-    return "cards flip";
     // permanent CSS transform
 }
 
 if (cardOne.classList.contains("red-dog") && cardTwo.classList.contains("red-dog")) {
     flipMatchedCards();
-} else {
-    checkForMatch();
 }
-
-
 
 
 
